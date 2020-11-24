@@ -1,0 +1,8 @@
+AR color_maker rtl D:/PROJECT/TTCS2/bai5/color_maker.vhd sub00/vhpl07 1605948429
+AR color_maker_top top_level D:/PROJECT/TTCS2/bai5/color_maker_top.vhd sub00/vhpl01 1605948431
+EN clockdiv NULL D:/PROJECT/TTCS2/bai5/clockdiv.vhd sub00/vhpl02 1605948424
+EN color_maker NULL D:/PROJECT/TTCS2/bai5/color_maker.vhd sub00/vhpl06 1605948428
+AR vga_controller behavioral D:/PROJECT/TTCS2/bai5/vgactrl.vhd sub00/vhpl05 1605948427
+EN vga_controller NULL D:/PROJECT/TTCS2/bai5/vgactrl.vhd sub00/vhpl04 1605948426
+AR clockdiv rtl D:/PROJECT/TTCS2/bai5/clockdiv.vhd sub00/vhpl03 1605948425
+EN color_maker_top NULL D:/PROJECT/TTCS2/bai5/color_maker_top.vhd sub00/vhpl00 1605948430

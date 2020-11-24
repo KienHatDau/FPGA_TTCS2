@@ -1,0 +1,13 @@
+V3 7
+FL D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.vhd 2020/11/14.11:12:29 P.20131013
+EN work/bai1_thanhghidich 1605352641 \
+      FL D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bai1_thanhghidich/Behavioral 1605352642 \
+      FL D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.vhd \
+      EN work/bai1_thanhghidich 1605352641 CP D_FF
+FL D:/FPGA/TTCS2/bai1_thanhghidich/D_FF.vhd 2020/11/14.06:14:09 P.20131013
+EN work/D_FF 1605352639 FL D:/FPGA/TTCS2/bai1_thanhghidich/D_FF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/D_FF/Behavioral 1605352640 \
+      FL D:/FPGA/TTCS2/bai1_thanhghidich/D_FF.vhd EN work/D_FF 1605352639

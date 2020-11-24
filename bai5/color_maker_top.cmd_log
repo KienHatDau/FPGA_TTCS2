@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/PROJECT/TTCS2/bai5/color_maker_top.xst" -ofn "D:/PROJECT/TTCS2/bai5/color_maker_top.syr" 
+xst -intstyle ise -ifn "D:/PROJECT/TTCS2/bai5/color_maker_top.xst" -ofn "D:/PROJECT/TTCS2/bai5/color_maker_top.syr" 

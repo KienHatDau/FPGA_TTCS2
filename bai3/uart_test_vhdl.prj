@@ -1,0 +1,4 @@
+vhdl work "D:\PROJECT\TTCS2\bai3\uart_tx.vhd"
+vhdl work "D:\PROJECT\TTCS2\bai3\uart_rx.vhd"
+vhdl work "D:\PROJECT\TTCS2\bai3\clk_18432.vhd"
+vhdl work "D:\PROJECT\TTCS2\bai3\uart_test.vhd"

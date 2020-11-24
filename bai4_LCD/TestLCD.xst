@@ -1,0 +1,5 @@
+set -tmpdir "D:/FPGA/TTCS2/bai4_LCD/xst/projnav.tmp"
+set -xsthdpdir "D:/FPGA/TTCS2/bai4_LCD/xst"
+elaborate
+-ifn TestLCD.prj
+-ifmt mixed

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+xst -intstyle ise -ifn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.xst" -ofn "D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 bai1_thanhghidich.ngc bai1_thanhghidich.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bai1_thanhghidich_map.ncd bai1_thanhghidich.ngd bai1_thanhghidich.pcf 
+par -w -intstyle ise -ol high -t 1 bai1_thanhghidich_map.ncd bai1_thanhghidich.ncd bai1_thanhghidich.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bai1_thanhghidich.twx bai1_thanhghidich.ncd -o bai1_thanhghidich.twr bai1_thanhghidich.pcf 

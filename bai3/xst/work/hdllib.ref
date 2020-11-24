@@ -1,0 +1,8 @@
+EN clk_18432 NULL D:/PROJECT/TTCS2/bai3/clk_18432.vhd sub00/vhpl00 1605949096
+EN uart_test NULL D:/PROJECT/TTCS2/bai3/uart_test.vhd sub00/vhpl06 1605949102
+AR clk_18432 behavioural D:/PROJECT/TTCS2/bai3/clk_18432.vhd sub00/vhpl01 1605949097
+AR uart_rx behavioural D:/PROJECT/TTCS2/bai3/uart_rx.vhd sub00/vhpl05 1605949101
+AR uart_test behavioural D:/PROJECT/TTCS2/bai3/uart_test.vhd sub00/vhpl07 1605949103
+EN uart_rx NULL D:/PROJECT/TTCS2/bai3/uart_rx.vhd sub00/vhpl04 1605949100
+AR uart_tx behavioural D:/PROJECT/TTCS2/bai3/uart_tx.vhd sub00/vhpl03 1605949099
+EN uart_tx NULL D:/PROJECT/TTCS2/bai3/uart_tx.vhd sub00/vhpl02 1605949098

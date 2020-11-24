@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 
+xst -intstyle ise -ifn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.xst" -ofn "D:/FPGA/Trung Kien Hoang/TestLCD/TetLCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "TetLCD.ngc" TetLCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TetLCD_map.ncd TetLCD.ngd TetLCD.pcf 
+par -w -intstyle ise -ol high -t 1 TetLCD_map.ncd TetLCD.ncd TetLCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TetLCD.twx TetLCD.ncd -o TetLCD.twr TetLCD.pcf 
+bitgen -intstyle ise -f TetLCD.ut TetLCD.ncd 

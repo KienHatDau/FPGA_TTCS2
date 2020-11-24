@@ -1,0 +1,26 @@
+V3 15
+FL D:/PROJECT/TTCS2/bai3/clk_18432.vhd 2020/11/21.15:57:17 P.20131013
+EN work/clk_18432 1605949096 FL D:/PROJECT/TTCS2/bai3/clk_18432.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/clk_18432/behavioural 1605949097 \
+      FL D:/PROJECT/TTCS2/bai3/clk_18432.vhd EN work/clk_18432 1605949096
+FL D:/PROJECT/TTCS2/bai3/uart_rx.vhd 2020/11/21.15:57:45 P.20131013
+EN work/uart_rx 1605949100 FL D:/PROJECT/TTCS2/bai3/uart_rx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/uart_rx/behavioural 1605949101 \
+      FL D:/PROJECT/TTCS2/bai3/uart_rx.vhd EN work/uart_rx 1605949100
+FL D:/PROJECT/TTCS2/bai3/uart_test.vhd 2020/11/21.15:56:44 P.20131013
+EN work/uart_test 1605949102 FL D:/PROJECT/TTCS2/bai3/uart_test.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/uart_test/behavioural 1605949103 \
+      FL D:/PROJECT/TTCS2/bai3/uart_test.vhd EN work/uart_test 1605949102 \
+      CP clk_18432 CP uart_tx CP uart_rx
+FL D:/PROJECT/TTCS2/bai3/uart_tx.vhd 2020/11/21.15:58:07 P.20131013
+EN work/uart_tx 1605949098 FL D:/PROJECT/TTCS2/bai3/uart_tx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/uart_tx/behavioural 1605949099 \
+      FL D:/PROJECT/TTCS2/bai3/uart_tx.vhd EN work/uart_tx 1605949098

@@ -1,0 +1,5 @@
+set -tmpdir "D:/FPGA/TTCS2/bai1_thanhghidich/xst/projnav.tmp"
+set -xsthdpdir "D:/FPGA/TTCS2/bai1_thanhghidich/xst"
+elaborate
+-ifn D_FF.prj
+-ifmt mixed

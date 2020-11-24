@@ -1,0 +1,44 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/PROJECT/TTCS2/bai3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to D:/PROJECT/TTCS2/bai3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/PROJECT/TTCS2/bai3/clk_18432.vhd" in Library work.
+Entity <clk_18432> compiled.
+Entity <clk_18432> (Architecture <behavioural>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai3/uart_tx.vhd" in Library work.
+Entity <uart_tx> compiled.
+Entity <uart_tx> (Architecture <behavioural>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai3/uart_rx.vhd" in Library work.
+Entity <uart_rx> compiled.
+Entity <uart_rx> (Architecture <behavioural>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai3/uart_test.vhd" in Library work.
+Entity <uart_test> compiled.
+Entity <uart_test> (Architecture <behavioural>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> 
+
+Total memory usage is 4476344 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/PROJECT/TTCS2/bai3/xst/projnav.tmp"
+set -xsthdpdir "D:/PROJECT/TTCS2/bai3/xst"
+elaborate
+-ifn uart_test.prj
+-ifmt mixed

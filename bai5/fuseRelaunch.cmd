@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/hkien/Downloads/DT010243_NGUYENQUOCTUAN_BAI3,4,5/DT010243_NGUYENQUOCTUAN_BAI3,4,5/bai5/color_maker_top_tb_isim_beh.exe" -prj "C:/Users/hkien/Downloads/DT010243_NGUYENQUOCTUAN_BAI3,4,5/DT010243_NGUYENQUOCTUAN_BAI3,4,5/bai5/color_maker_top_tb_beh.prj" "work.color_maker_top_tb" 

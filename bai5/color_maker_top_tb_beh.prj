@@ -1,0 +1,5 @@
+vhdl work "vgactrl.vhd"
+vhdl work "color_maker.vhd"
+vhdl work "clockdiv.vhd"
+vhdl work "color_maker_top.vhd"
+vhdl work "color_maker_top_tb.vhd"

@@ -1,0 +1,5 @@
+set -tmpdir "D:/FPGA/TTCS2/bai2_led7doan/xst/projnav.tmp"
+set -xsthdpdir "D:/FPGA/TTCS2/bai2_led7doan/xst"
+elaborate
+-ifn bcd_7segment.prj
+-ifmt mixed

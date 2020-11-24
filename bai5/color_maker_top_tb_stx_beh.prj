@@ -1,0 +1,5 @@
+vhdl isim_temp "vgactrl.vhd"
+vhdl isim_temp "color_maker.vhd"
+vhdl isim_temp "clockdiv.vhd"
+vhdl isim_temp "color_maker_top.vhd"
+vhdl isim_temp "color_maker_top_tb.vhd"

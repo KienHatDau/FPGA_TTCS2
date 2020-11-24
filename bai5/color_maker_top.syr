@@ -1,0 +1,515 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: color_maker_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "color_maker_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "color_maker_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : color_maker_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/PROJECT/TTCS2/bai5/clockdiv.vhd" in Library work.
+Entity <clockdiv> compiled.
+Entity <clockdiv> (Architecture <rtl>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai5/vgactrl.vhd" in Library work.
+Entity <vga_controller> compiled.
+Entity <vga_controller> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai5/color_maker.vhd" in Library work.
+Entity <color_maker> compiled.
+Entity <color_maker> (Architecture <rtl>) compiled.
+Compiling vhdl file "D:/PROJECT/TTCS2/bai5/color_maker_top.vhd" in Library work.
+Architecture top_level of Entity color_maker_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <color_maker_top> in library <work> (architecture <top_level>).
+
+Analyzing hierarchy for entity <clockdiv> in library <work> (architecture <rtl>) with generics.
+	DIVPARAM = 2
+
+Analyzing hierarchy for entity <vga_controller> in library <work> (architecture <behavioral>) with generics.
+	H_BP = 48
+	H_DISP = 640
+	H_FP = 16
+	H_PW = 96
+	H_S = 800
+	V_BP = 29
+	V_DISP = 480
+	V_FP = 10
+	V_PW = 2
+	V_S = 521
+
+Analyzing hierarchy for entity <color_maker> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <color_maker_top> in library <work> (Architecture <top_level>).
+Entity <color_maker_top> analyzed. Unit <color_maker_top> generated.
+
+Analyzing generic Entity <clockdiv> in library <work> (Architecture <rtl>).
+	DIVPARAM = 2
+Entity <clockdiv> analyzed. Unit <clockdiv> generated.
+
+Analyzing generic Entity <vga_controller> in library <work> (Architecture <behavioral>).
+	H_BP = 48
+	H_DISP = 640
+	H_FP = 16
+	H_PW = 96
+	H_S = 800
+	V_BP = 29
+	V_DISP = 480
+	V_FP = 10
+	V_PW = 2
+	V_S = 521
+Entity <vga_controller> analyzed. Unit <vga_controller> generated.
+
+Analyzing Entity <color_maker> in library <work> (Architecture <rtl>).
+Entity <color_maker> analyzed. Unit <color_maker> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clockdiv>.
+    Related source file is "D:/PROJECT/TTCS2/bai5/clockdiv.vhd".
+    Found 2-bit up counter for signal <count>.
+    Found 1-bit register for signal <temp_q>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clockdiv> synthesized.
+
+
+Synthesizing Unit <vga_controller>.
+    Related source file is "D:/PROJECT/TTCS2/bai5/vgactrl.vhd".
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <hs>.
+    Found 10-bit register for signal <hpix>.
+    Found 10-bit register for signal <vpix>.
+    Found 1-bit register for signal <vs>.
+    Found 1-bit register for signal <blank>.
+    Found 13-bit comparator less for signal <blank$cmp_lt0000> created at line 75.
+    Found 12-bit comparator less for signal <blank$cmp_lt0001> created at line 75.
+    Found 12-bit up counter for signal <hCounter>.
+    Found 1-bit register for signal <nextHsync>.
+    Found 13-bit comparator greatequal for signal <nextHsync$cmp_ge0000> created at line 92.
+    Found 13-bit comparator less for signal <nextHsync$cmp_lt0000> created at line 92.
+    Found 1-bit register for signal <nextVsync>.
+    Found 12-bit comparator greatequal for signal <nextVsync$cmp_ge0000> created at line 98.
+    Found 12-bit comparator less for signal <nextVsync$cmp_lt0000> created at line 98.
+    Found 11-bit up counter for signal <vCounter>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <vga_controller> synthesized.
+
+
+Synthesizing Unit <color_maker>.
+    Related source file is "D:/PROJECT/TTCS2/bai5/color_maker.vhd".
+Unit <color_maker> synthesized.
+
+
+Synthesizing Unit <color_maker_top>.
+    Related source file is "D:/PROJECT/TTCS2/bai5/color_maker_top.vhd".
+WARNING:Xst:646 - Signal <vdrawSig> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <hdrawSig> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <color_maker_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 11-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 8
+ 1-bit register                                        : 6
+ 10-bit register                                       : 2
+# Comparators                                          : 6
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 2
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 11-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Comparators                                          : 6
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 2
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <color_maker_top> ...
+
+Optimizing unit <vga_controller> ...
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_9> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_8> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_7> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_6> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_5> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_4> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_3> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_2> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_1> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/vpix_0> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_9> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_8> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_7> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_6> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_5> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_4> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_3> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_2> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_1> of sequential type is unconnected in block <color_maker_top>.
+WARNING:Xst:2677 - Node <vgaSync_instance/hpix_0> of sequential type is unconnected in block <color_maker_top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block color_maker_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : color_maker_top.ngr
+Top Level Output File Name         : color_maker_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 95
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 21
+#      LUT2                        : 6
+#      LUT3                        : 4
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 10
+#      LUT4_L                      : 3
+#      MUXCY                       : 21
+#      VCC                         : 1
+#      XORCY                       : 23
+# FlipFlops/Latches                : 31
+#      FD                          : 2
+#      FDC                         : 2
+#      FDCE                        : 1
+#      FDR                         : 15
+#      FDRE                        : 11
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 4
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       27  out of   4656     0%  
+ Number of Slice Flip Flops:             31  out of   9312     0%  
+ Number of 4 input LUTs:                 49  out of   9312     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    232     4%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3     |
+clockdiv_vga_instance/temp_q1      | BUFG                   | 28    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.799ns (Maximum Frequency: 172.444MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.597ns
+   Maximum combinational path delay: 6.209ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.976ns (frequency: 336.021MHz)
+  Total number of paths / destination ports: 7 / 4
+-------------------------------------------------------------------------
+Delay:               2.976ns (Levels of Logic = 1)
+  Source:            clockdiv_vga_instance/count_0 (FF)
+  Destination:       clockdiv_vga_instance/temp_q (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clockdiv_vga_instance/count_0 to clockdiv_vga_instance/temp_q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.706  clockdiv_vga_instance/count_0 (clockdiv_vga_instance/count_0)
+     LUT2:I0->O            1   0.704   0.420  clockdiv_vga_instance/count_cmp_eq00001 (clockdiv_vga_instance/count_not0001_inv)
+     FDCE:CE                   0.555          clockdiv_vga_instance/temp_q
+    ----------------------------------------
+    Total                      2.976ns (1.850ns logic, 1.126ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clockdiv_vga_instance/temp_q1'
+  Clock period: 5.799ns (frequency: 172.444MHz)
+  Total number of paths / destination ports: 704 / 62
+-------------------------------------------------------------------------
+Delay:               5.799ns (Levels of Logic = 3)
+  Source:            vgaSync_instance/hCounter_3 (FF)
+  Destination:       vgaSync_instance/vCounter_10 (FF)
+  Source Clock:      clockdiv_vga_instance/temp_q1 rising
+  Destination Clock: clockdiv_vga_instance/temp_q1 rising
+
+  Data Path: vgaSync_instance/hCounter_3 to vgaSync_instance/vCounter_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  vgaSync_instance/hCounter_3 (vgaSync_instance/hCounter_3)
+     LUT4:I0->O            2   0.704   0.526  vgaSync_instance/vCounter_and000017 (vgaSync_instance/vCounter_and000017)
+     LUT4_L:I1->LO         1   0.704   0.104  vgaSync_instance/vCounter_and0000127 (vgaSync_instance/hCounter_and0000)
+     LUT4:I3->O           11   0.704   0.933  vgaSync_instance/vCounter_and000061 (vgaSync_instance/vCounter_and0000)
+     FDRE:R                    0.911          vgaSync_instance/vCounter_0
+    ----------------------------------------
+    Total                      5.799ns (3.614ns logic, 2.185ns route)
+                                       (62.3% logic, 37.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clockdiv_vga_instance/temp_q1'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.597ns (Levels of Logic = 2)
+  Source:            vgaSync_instance/blank (FF)
+  Destination:       blue (PAD)
+  Source Clock:      clockdiv_vga_instance/temp_q1 rising
+
+  Data Path: vgaSync_instance/blank to blue
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.610  vgaSync_instance/blank (vgaSync_instance/blank)
+     LUT2:I1->O            1   0.704   0.420  red1 (red_OBUF)
+     OBUF:I->O                 3.272          red_OBUF (red)
+    ----------------------------------------
+    Total                      5.597ns (4.567ns logic, 1.030ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               6.209ns (Levels of Logic = 3)
+  Source:            sldsw<0> (PAD)
+  Destination:       blue (PAD)
+
+  Data Path: sldsw<0> to blue
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  sldsw_0_IBUF (sldsw_0_IBUF)
+     LUT2:I0->O            1   0.704   0.420  blue1 (blue_OBUF)
+     OBUF:I->O                 3.272          blue_OBUF (blue)
+    ----------------------------------------
+    Total                      6.209ns (5.194ns logic, 1.015ns route)
+                                       (83.7% logic, 16.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.39 secs
+ 
+--> 
+
+Total memory usage is 4513560 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   23 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

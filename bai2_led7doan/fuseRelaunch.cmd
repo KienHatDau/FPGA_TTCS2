@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/FPGA/TTCS2/bai2_led7doan/testbend_isim_beh.exe" -prj "D:/FPGA/TTCS2/bai2_led7doan/testbend_beh.prj" "work.testbend" 

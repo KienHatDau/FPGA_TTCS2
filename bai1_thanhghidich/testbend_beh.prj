@@ -1,0 +1,3 @@
+vhdl work "D_FF.vhd"
+vhdl work "bai1_thanhghidich.vhd"
+vhdl work "testbend.vhd"
