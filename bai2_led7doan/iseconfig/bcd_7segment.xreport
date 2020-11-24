@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-14T18:02:47</DateModified>
+  <DateModified>2020-11-24T09:38:55</DateModified>
   <ModuleName>bcd_7segment</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/FPGA/TTCS2/bai2_led7doan/iseconfig/bcd_7segment.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/FPGA/TTCS2/bai2_led7doan</ImplementationReportsDirectory>
+  <SavedFilePath>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai2_led7doan/iseconfig/bcd_7segment.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai2_led7doan\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-14T18:02:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

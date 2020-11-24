@@ -1,6 +1,0 @@
-V3 3
-FL D:/FPGA/TTCS2/bai2_led7doan/led7doan.vhd 2020/11/14.17:56:31 P.20131013
-EN work/bcd_7segment 1605351395 FL D:/FPGA/TTCS2/bai2_led7doan/led7doan.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/bcd_7segment/Behavioral 1605351396 \
-      FL D:/FPGA/TTCS2/bai2_led7doan/led7doan.vhd EN work/bcd_7segment 1605351395

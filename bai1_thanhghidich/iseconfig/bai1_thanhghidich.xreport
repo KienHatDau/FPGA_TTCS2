@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-14T18:17:11</DateModified>
+  <DateModified>2020-11-24T09:38:33</DateModified>
   <ModuleName>bai1_thanhghidich</ModuleName>
   <SummaryTimeStamp>2020-11-14T06:06:52</SummaryTimeStamp>
-  <SavedFilePath>D:/FPGA/TTCS2/bai1_thanhghidich/iseconfig/bai1_thanhghidich.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/FPGA/TTCS2/bai1_thanhghidich\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai1_thanhghidich/iseconfig/bai1_thanhghidich.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai1_thanhghidich\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-14T05:31:32</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

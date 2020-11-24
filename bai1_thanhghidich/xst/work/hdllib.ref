@@ -1,4 +1,0 @@
-AR bai1_thanhghidich behavioral D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.vhd sub00/vhpl03 1605352642
-EN d_ff NULL D:/FPGA/TTCS2/bai1_thanhghidich/D_FF.vhd sub00/vhpl00 1605352639
-AR d_ff behavioral D:/FPGA/TTCS2/bai1_thanhghidich/D_FF.vhd sub00/vhpl01 1605352640
-EN bai1_thanhghidich NULL D:/FPGA/TTCS2/bai1_thanhghidich/bai1_thanhghidich.vhd sub00/vhpl02 1605352641

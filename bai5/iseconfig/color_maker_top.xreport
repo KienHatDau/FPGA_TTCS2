@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-21T23:43:05</DateModified>
+  <DateModified>2020-11-24T09:39:55</DateModified>
   <ModuleName>color_maker_top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/hkien/Downloads/DT010243_NGUYENQUOCTUAN_BAI3,4,5/DT010243_NGUYENQUOCTUAN_BAI3,4,5/bai5/iseconfig/color_maker_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/hkien/Downloads/DT010243_NGUYENQUOCTUAN_BAI3,4,5/DT010243_NGUYENQUOCTUAN_BAI3,4,5/bai5\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai5/iseconfig/color_maker_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/FPGA/TTCS2/TTCS2_final/FPGA_TTCS2/bai5\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-21T15:40:31</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

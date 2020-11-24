@@ -1,8 +1,0 @@
-Release 14.7 Drc P.20131013 (nt64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-
-Tue Aug 25 06:47:43 2020
-
-drc -z TestLCD.ncd TestLCD.pcf
-
-DRC detected 0 errors and 0 warnings.
